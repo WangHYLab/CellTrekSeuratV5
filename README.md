@@ -2,6 +2,7 @@
 
 ### 1. Install
 ```R
+devtools::install_github("navinlabcode/CellTrek")
 devtools::install_github("WangHYLab/CellTrekSeuratV5")
 ```
 ### 2. Use demo
