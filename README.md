@@ -6,6 +6,8 @@ devtools::install_github("WangHYLab/CellTrekSeuratV5")
 ```
 ### 2. Use demo
 ```R
+library(CellTrek)
+library(Seurat)
 library(CellTrekSeuratV5)
 data("sc_data")
 data("sc_data")
