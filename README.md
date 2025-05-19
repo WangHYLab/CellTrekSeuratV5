@@ -1,11 +1,10 @@
 ## Fixes to Tool [CellTrek](https://github.com/navinlabcode/CellTrek) to enable running in SeuratV5
 
-## Use detail：
-### install
+### 1. Install
 ```R
 devtools::install_github("WangHYLab/CellTrekSeuratV5")
 ```
-### Use demo
+### 2. Use demo
 ```R
 library(CellTrekSeuratV5)
 data("sc_data")
