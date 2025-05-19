@@ -36,4 +36,6 @@ Imports:
     visNetwork
 Depends: 
     R (>= 4.1.2)
+Remotes: 
+    navinlabcode/CellTrek
 LazyData: true
