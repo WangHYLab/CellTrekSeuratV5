@@ -1,0 +1,39 @@
+Package: CellTrekSeuratV5
+Title: What the Package Does (One Line, Title Case)
+Version: 1.0.0
+Authors@R: 
+    person("Jie", "Zheng", email="zhengjiebioinfo@163.com", role = c("aut", "cre"))
+Description: Fixes to Tool CellTrek to enable running in SeuratV5. CellTrek is a computational toolkit that can directly map single cells back to their spatial coordinates in tissue sections based on scRNA-seq and ST data. The CellTrek toolkit also provides two downstream analysis modules, including SColoc for spatial colocalization analysis and SCoexp for spatial co-expression analysis.
+License: MIT
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    CellTrek,
+    akima,
+    data.table,
+    dbscan,
+    dplyr,
+    dynamicTreeCut,
+    fastcluster,
+    geometry,
+    ggpubr,
+    igraph,
+    magrittr,
+    MASS,
+    packcircles,
+    philentropy,
+    plotly,
+    purrr,
+    randomForestSRC,
+    RColorBrewer,
+    reshape2,
+    scales,
+    Seurat,
+    shiny,
+    tibble,
+    tidyr,
+    visNetwork
+Depends: 
+    R (>= 4.1.2)
+LazyData: true
